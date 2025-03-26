@@ -1,4 +1,4 @@
-# ![HealthSafe Banner](https://via.placeholder.com/1200x300.png?text=HealthSafe+Banner)  
+# ![SST360 Banner](sst360_banner.png)  
 
 # SST 360 🚑💼⛑️
 
