@@ -36,7 +36,6 @@ cd sst360
 ```
 
 ### 3. Instale as dependências (dependendo das tecnologias utilizadas):
-Se o projeto for baseado em Node.js, por exemplo:
 
 ```bash
 pip install -r requirements.txt
