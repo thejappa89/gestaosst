@@ -37,21 +37,15 @@ cd sst360
 
 ### 3. Instale as dependências (dependendo das tecnologias utilizadas):
 Se o projeto for baseado em Node.js, por exemplo:
-```bash
-npm install
-```
 
-Se for Python:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Inicie o servidor (caso seja uma aplicação web):
+### 4. Inicie o servidor (caso seja uma aplicação web): (em construção)
 ```bash
 npm start
 ```
-
-Ou, para outras configurações, forneça as instruções de como iniciar o sistema.
 
 ## Uso 🖥️
 
@@ -82,7 +76,7 @@ Depois de instalar o sistema, você pode usar o **SST 360** para realizar as seg
 
 ## Contribuição 🤝
 
-Se você deseja contribuir para o desenvolvimento do **HealthSafe**, siga os seguintes passos:
+Se você deseja contribuir para o desenvolvimento do **SST 360**, siga os seguintes passos:
 
 1. Faça o fork deste repositório.
 2. Crie uma branch com a sua feature:
@@ -95,7 +89,7 @@ Se você deseja contribuir para o desenvolvimento do **HealthSafe**, siga os seg
    ```
 4. Envie para o repositório original:
    ```bash
-   git push origin feature/nome-da-feature
+   git push origin feature/sst360
    ```
 5. Abra um Pull Request com uma descrição clara sobre as mudanças realizadas.
 
