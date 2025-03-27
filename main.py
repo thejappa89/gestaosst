@@ -10,13 +10,13 @@ while True:
         opc = menu(['Ambientação', 'DDS', 'Permissão de Trabalho', 'Diário de Campo', '<- Voltar'], 'ROTINAS SSMA')
 
         if opc == 1:
-            titulo('AMBIENTAÇÃO')
+            meu_menu = menu(['Nova ambientação', 'Ficha de EPI', 'Ordem de serviço', '<- Voltar'], 'AMBIENTAÇÃO')
         
         elif opc == 2:
-            titulo('DDS')
+            meu_menu = menu(['Informar tema', 'Inserir data manual', 'Equipes', '<- Voltar'], 'DIÁLOGO DE SEGURANÇA')
         
         elif opc == 3:
-            titulo('PERMISSÃO DE TRABALHO')
+            meu_menu = menu(['Preencher PT', 'Consultar PT', '<- Voltar'], 'PERMISSÃO DE TRABALHO')
         
         elif opc == 4:
             titulo('DIÁRIO DE CAMPO')
@@ -25,10 +25,10 @@ while True:
             continue
     
     elif resp == 2:
-        titulo('CHECKLIST')
+        meu_menu = menu(['Forma de alumínio', 'Máquinas rotativas', 'Máquinas pesadas', 'Máquina de solda', '<- Voltar'], 'CHECKLIST')
     
     elif resp == 3:
-        titulo('TREINAMENTOS')
+        meu_menu = menu(['Lista de presença', 'Certificados', '<- Voltar'], 'TREINAMENTOS')
     
     elif resp == 4:
         print('Salvando as alterações...')
